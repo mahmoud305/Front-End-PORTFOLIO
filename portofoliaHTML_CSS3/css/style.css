@@ -1,0 +1,966 @@
+*{
+    box-sizing: border-box;
+     padding: 0px;
+    margin: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+html{
+    scroll-behavior: smooth ;/* should not be used as it is not supported by most of the browsers  */
+}
+body a{
+ text-decoration: none;
+ transition: all 1s;
+
+ /* color: #black; */
+}
+button{border: 0px;}
+.robotoFont,p{
+    font-family: 'Roboto', sans-serif;
+ }
+.home{
+   
+    height: 100vh;
+    background-image: url(../img/slider/image4.jpg);
+    background-size: cover;
+    background-position: center center;
+    /* background-color: burlywood; */
+    background-attachment: fixed;
+    overflow: hidden;
+}
+.home a{
+    text-decoration: none;
+    color: #FFF;
+}
+.navBar
+{
+    margin-top: 10px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.fokir {
+    
+    width: 20%;
+    /* background-color: rgb(74, 74, 92); */
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800px;
+    color: #ff305b !important;
+}
+/* .fokir a {
+    
+} */
+.navLinks{
+    /* background-color: darkgreen; */
+    width: 40%;
+    margin-right: 40px;
+}
+.homeLink a{
+    color: #ff305b;
+}
+/* .navLinks ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+} */
+.listItem{
+    margin-right :20px;
+}
+.listItem a{
+    transition: color 1s !important;
+}
+.listItem:hover a{
+    color: #ff305b !important;
+}
+
+.homeDetails{
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    color: #FFF;
+}
+.homeContainer
+{
+    text-align: center;
+}
+.homeContainer h2{
+    /* font-size: 24px; */
+    font-weight: 600;
+    padding: 5px;
+}
+.homeContainer h1
+{
+    font-size: 70px;
+    color:#ff305b;
+}
+.h3Changed{
+    padding: 5px;
+    font-family:'Roboto', sans-serif;
+    font-size: 26px;
+}
+.h3Div{
+    width: 70%;
+    display: flex;margin: auto;
+}
+.rubber
+{
+margin: auto;
+font-size: 18px;}
+
+/****--- Page2 About-----************/
+.about{
+    padding: 30px;
+    margin: 40px 10px;
+    /* background-color: darkkhaki; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.about-pic{
+    width: 40%;
+   
+    /* background-color: darkviolet; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.page2Details{
+    /* background-color: deepskyblue; */
+    width: 60%;
+    padding: 1% 10% ;
+}
+.borderr{
+    margin-top: 20px;
+    width: 60%;
+    height: 90%;
+    border:10px solid darkslategray ;
+    /* border-bottom: 0px; */
+    /* background-color: gold; */
+     border-radius: 8px ;
+}
+.about-layer img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* margin-top: 20px;
+    margin-left: 20px; */
+    
+}
+.imgDiv{  
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+overflow: hidden
+;}
+
+
+.layer{
+     width: 100%;
+     height: 100%;
+    position: absolute;
+   padding: 0px;
+   border: 0px;
+    top: 100%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0,0  ,0  ,0.5  );
+    transition: top 1s;
+    overflow: hidden;
+}
+
+.absoluteLinks
+{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.imgDiv:hover .layer{
+top: 0px;
+}
+/**/
+
+.page2Details h2{
+    font-size: 34px;
+    font-weight: bold;
+    padding: 0.5%;
+    color: #333;
+    }
+.I{
+    color: #ff305b;
+}
+.page2Details p{
+  color: #333;
+    font-weight: bold;        
+    padding: 0.5%;
+    line-height: 25px;
+}
+.dashedLine{
+    margin: 30px 0px;
+    width: 100%;
+    border: 0.5px dashed #555555;
+    margin-bottom: 6%;
+}
+.myInfo{
+    /* columns: 2 40%; */
+    column-count: 2;
+  column-gap: 30px;
+    /* width: 50%; */
+color:#555555;
+
+}
+.myInfo ul{
+    list-style-type: none;
+    font-size: 18px;
+ 
+}
+
+.infoItems{
+  
+    font-weight: bold;
+    color: #333333;
+}
+.myInfo li{
+padding: 10px 0px;
+}
+.page2Buttons button {
+    margin: 10px 0px;
+color: #fff;
+background-color: #ff305b ;
+padding:10px ;
+width: 30%;
+border-radius: 5px;
+font-size: 100%;
+font-weight: 600;
+}
+.page2Buttons a {
+    color: #FFF;
+    text-decoration: none;
+}
+#btn2{
+    width: 25%;
+    margin-left: 20px;
+}
+
+/** Page3 {Services} **/
+.page3{
+    background-color: #f1f1f1;
+    overflow: hidden;
+    text-align: center;
+    color: #333333;
+    padding: 20px 0px;
+    }
+    .page3Details{
+        /* background-color: #ff305b; */
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+         width: 80%;
+         margin: auto;
+         padding: 40px;
+    }
+    .page3Item{
+        /* background-color: #333; */
+        padding :20px;
+        text-align: center;
+         width: 25%;
+         
+    }
+    .Item3Image{
+        text-align: center;
+        width: 30%;
+        margin: auto;
+    }
+    .Item3Image img{
+        width: 100%;
+        padding: 10%;
+        transition: transform 1s;
+    }
+    .line , .biggerLine{
+        border: 0.3px solid #ff305b;
+        /* background-color: #ff305b; */
+        width: 5%;
+        margin: auto;
+        margin-bottom: 0.7%;
+    }
+    .biggerLine{
+        border: 0.7px solid #ff305b;
+        width: 10%;
+    }
+    .page3 h2{
+        font-size: 40px;
+        font-weight: 800;
+        padding-top: 2%;
+    }
+    .page3Item h3{
+    font-size: 20px;
+    margin: 10px 0px;
+    }
+    .page3Item p{
+        color: #555555;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25px;
+      
+        padding-bottom: 20px;
+
+        /* margin: 0px 0px 16px; */
+    }
+    .page3Item:hover{
+        background-color: #fff;
+        box-shadow: 5px 5px rgba(0, 0,0,0.1 );
+    }
+
+    .page3Item:hover .Item3Image img{
+     transform: scale(1.2);
+    }
+
+
+    /******************** Page4************/
+    .page4_Portfolio{
+        text-align: center;
+        padding: 5%;
+    }
+.Center_h2 {
+    padding-bottom:5px ;
+    text-align: center;
+color: #333333;
+font-size: 40px;
+}
+.portofolia_Headers{
+
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+padding: 4% 0%;    
+}
+.portofolia_Headers  h3 a{
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+
+}
+.portofolia_Images{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.portImg{
+    margin:1% ;
+    width: 30%;
+    position: relative;
+    
+}
+.portImg img{
+    width: 100%;
+     
+}
+.portImg:hover{
+  cursor: pointer;/* should be link but the pointer is sufficient */
+ 
+}
+.portImg:hover .portImg_layer{
+    opacity: 1;
+    /* should be link but the pointer is sufficient */
+}  
+.portImg_layer{
+position: absolute;
+width: 100%;
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+background-color: rgba(0,0  ,0, 0.5);
+opacity: 0;
+}
+
+
+    /******************** Page5************/
+
+    .page5_statistics{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 5% 0%;
+        background-color: #f1f1f1;;
+    }
+
+    .page5_Item{
+        text-align: center;
+        width: 15%;
+        /* background-color: sienna; */
+    }
+    .page5_Item h2{
+        font-size: 26px;
+        padding:10px 0px ;
+    } .page5_Item h5{
+        font-size: 16px;
+        color: #555555; ;
+    }
+    .page5Image{
+        margin: auto;
+        width: 20%;
+    }
+    
+    .page5Image img{
+        width: 100%;
+    }
+
+
+    /*********page 6 FeedBack**********************/
+    .clientFeedBack_page6{
+        padding: 5% 0%;
+    }
+   
+    .feedback{
+        width: 55%;
+        margin:auto ;
+        margin-top:3% ;
+        background-color: #f1f1f1;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-radius: 10px;
+      
+    }
+
+    .feedback_Img{
+        width: 10%;
+        margin: auto;
+        background-color: royalblue;
+        /* text-align: center; */
+         
+    }
+  
+    .triangle_Img{
+        text-align: center;
+    width: 25%;
+    position: relative;
+    /* background-color: black; */
+   
+    }
+      .feedback_Img img{
+        width: 50%;
+        border-radius: 50%;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        /* bottom: 50%;
+        right: 50%; */
+    }
+    .triangleDiv {
+        width: 0;
+        height: 0;
+        border-top: 200px solid  #ff305b;;
+        border-right: 200px solid transparent; 
+        /* border-radius: 10px; */
+      }
+      .feedback_Caption{
+          width: 75%;
+          padding: 5% 2%;
+          /* background-color: salmon; */
+      }
+      .feedback_Caption h3{
+          font-size: 26px;
+          color: #333333;
+          padding: 5px 0px;
+      }
+      .feedback_Caption a{
+          font-size: 15px;
+          color: #777777;
+          padding: 5px 0px;
+      }
+
+      .feedback_Caption p{
+        font-size: 16px;
+        color: #555555;
+        padding: 5px 0px;
+        line-height: 30px;
+        font-style: italic;
+        font-weight: bolder;
+        /* background-color: aqua; */
+    }
+/********* Page  & 7  **********/
+.OurBlog_page7{
+    background-color: #f1f1f1;
+    margin: 50px 0px;
+    padding: 7% 0%;
+}
+.blog_Container{
+padding: 5% 0% 0%;
+    width: 85%;
+    margin: auto;
+    /* background-color: slateblue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.blog_Item {
+    background-color: snow;
+    width: 30%;
+
+}
+.blog_Image img,iframe  {
+width: 100%;
+}
+.blog_Details{
+    padding: 5% 7%;
+}
+.blog_Item h4{
+font-size: 16px;
+color: #555555;
+padding: 5% 0% ;
+
+}
+.blog_Item a{
+    text-decoration: none;
+    color: #333333;
+}
+.blog_Details p{/** the color of the paragraph doesont change or the font weight    **/
+    /* padding: 5% 7% ; */
+    line-height: 30px;
+    color: #555555;
+    font-weight: 600;
+    font-family:'Roboto', sans-serif ;
+    padding: 5% 0%;
+}
+.readMore{
+    width: 40%;
+}
+.blog_Details h3{
+    font-weight: normal;
+    /* background-color: darkgreen; */
+    
+}
+ a:hover {/* why the pointer exist outside the header **/
+    color: #ff305b;
+
+}
+.blog_Details h2:hover{
+    color: #ff305b;/* why the pointer exist outside the header **/
+}
+
+/******* Contact Us *****/
+
+/*
+input [type=text]{
+leh dih msh sh'8ala   el shkl dh y3ni 
+}*/
+
+.contact_us_page8{
+    padding: 5% 0%;
+    /* background-color: darkblue; */
+}
+.contactForm{
+    width: 70%;
+    margin: auto;
+    /* background-color: chartreuse; */
+      margin-top: 3%;
+}
+
+.formElement{
+    width: 80%;
+    padding: 1.5% 2%;
+    margin:20px 0px ;
+    /* background-color: brown; */
+    border-radius :4px ;
+    
+    border: 1px solid #333;
+}
+.formElement:focus {
+    border:1px solid  red ;
+  box-shadow: 5px 5px 1px 1px rgba(255, 0,0,0.1 );
+}
+.subject_ANd_Message ,.name_And_Email,.submitButton{
+    width: 80%;
+    margin: auto;
+}
+.name_And_Email{
+     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: brown; */
+}
+#name ,#email{
+  width: 48%;
+  /* margin-left:2%; */
+}
+#message,#subject{
+    width: 100%;
+}
+#message{
+    resize: vertical;
+}
+
+#submit{
+    width: 20%;
+    padding:1% ;
+    border-radius: 5px;
+    background-color:#ff305b ;
+    color: #FFF;
+    font-size: 16px;
+    border:0px ;
+ }
+
+ #submit:hover{
+     background-color: red;
+ }
+
+ /************Footer*************/
+footer{
+    background-color: #333333;
+    padding: 50px 0;
+    text-align: center ;
+}
+.socialLinks {
+width: 50%;
+margin: auto;
+/* background-color: darkgreen; */
+}
+.socialLinks a{
+    padding: 20px 10px;
+    color: #FFF;
+}
+.socialLinks a:hover{
+     color: red;
+}
+.footer_content p{
+    color: #FFF;
+    font-weight: bold;
+
+}
+/** Media Queryyyyyyyyyyyyyyyyyyyyyyyyyy **/
+@media screen and (max-width:700px) {
+
+    /******************** Home *******************/
+    .navBar{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+.navLinks ul{
+    
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 15px 0px;
+}
+.listItem{
+    padding: 10px 0px;
+    font-size: 18px;
+}
+.fokir{
+    font-size: 28px;
+}
+
+.homeDetails{
+    height: 50%;
+}
+
+.homeContainer h2{
+    font-size: 22px;
+}
+.homeContainer h1
+{
+    font-size: 38px;
+    color:#ff305b;
+}
+.h3Div{
+    width: 90%;
+   
+}
+.h3Changed{
+    font-size: 18px;
+}
+/*********** About ************/
+
+.about-pic{
+    width: 100%;
+   
+    /* background-color: darkviolet; */
+ 
+    justify-content:  center;
+}
+
+.page2Details{
+    /* background-color: deepskyblue; */
+    width: 90%;
+    padding: 1% 0% ;
+}
+
+.borderr{
+    margin: 20px 0px;
+    width: 90%;
+
+    border:0px  ;
+
+}
+.imgDiv{  
+    width: 90%;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: relative;
+overflow: hidden;
+}
+.myInfo{
+    column-count: 1;
+}
+.myInfo ul{
+    list-style-type: none;
+    font-size: 16px;
+ 
+}
+.page2Details h2{
+    font-size: 30px;
+    }
+
+    .absoluteLinks{
+left: 35%;    }
+ 
+  /*********Services***********/
+
+.page3Item{
+    width: 100%;   
+}
+.Item3Image{
+   width: 15%; 
+}
+.page3Item h3{
+    font-size: 22px;
+    }
+    
+       /****************** Portofolia  *******************/
+   .portImg{
+    width: 90%;  
+    margin:2% 1% ;
+}
+   
+    /**********Statistics*******Page5******/
+    /* .page5_Item{
+        text-align: center;
+        width: 100%;
+        /* background-color: sienna; 
+    } */
+    .page5_statistics{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5% 0%;
+    }
+     
+    .page5Image{
+        width: 15%;
+     }
+    .page5_Item{
+        width: 50%;
+         padding: 10px 0px;
+    }
+    .page5Image img{
+        width: 100%;
+    }
+
+
+    /*************** FeedBack **************/
+
+.triangleDiv {
+    border-top: 200px solid  #ff305b;;
+    border-right: 200px solid transparent; 
+  }
+ 
+  .feedback_Caption{
+    width: 95%;
+    padding: 5% 0%;
+    /* background-color: salmon; */
+}
+
+.feedback{
+    width: 70%;
+    /* margin: auto; */
+   
+  
+}
+.triangle_Img{
+width: 100%;
+ padding:0px ;
+}
+
+    .feedback_Img img{
+        width: 30%;
+        left: 35%;}
+
+
+    /********   Our Blog {Page7}   ********/
+    .blog_Item {
+        background-color: snow;
+        width: 80%;
+       margin-bottom: 5%;
+    }   
+
+    /**********Contact us *********/
+    #name ,#email{
+        width: 100%;
+        /* margin-left:2%; */
+      }
+      
+#submit{
+    width: 50%;
+    padding:3% 2% ;
+    font-size: 16px;
+ }
+ .formElement{
+    margin:15px 0px ;
+    font-size: 18px;
+    padding: 4% 3%;
+ }
+ .contactForm{
+    width: 90%;}
+
+}
+
+
+
+@media screen and (max-width: 1000px) and (min-width: 701px){
+
+
+
+/************Feedback***********/
+    .feedback{
+        width: 90%;
+     
+       
+      
+    }
+      .triangleDiv {
+        border-top: 200px solid  #ff305b;;
+        border-right: 200px solid transparent; 
+      }
+     
+      .feedback_Caption{
+        width: 75%;
+        padding: 5% 0%;
+        /* background-color: salmon; */
+    }
+    
+  
+    .triangle_Img{
+    width: 25%;
+     padding:0px ;
+    /* background-color: black; */
+    /* text-align: left; */
+    /* background-color: blue; */
+    }
+    
+        .feedback_Img img{
+            width: 60%;
+          
+            left: 30%;}
+
+    /******************** Home *******************/
+    .fokir {
+ 
+     width: 20%;
+     /* background-color: rgb(74, 74, 92); */
+     text-align: center;
+ }
+ .fokir a {
+     text-align: center;
+     font-size: 20px;
+     font-weight: 800px;
+     color: #ff305b;
+ }
+ .navLinks{
+     /* background-color: darkgreen; */
+     width: 60%;
+     margin-right: 40px;
+ }
+
+.homeDetails{
+ height: 80%;
+}
+
+.homeContainer h2{
+ font-size: 24px;
+}
+.homeContainer h1
+{
+ font-size: 50px;
+ color:#ff305b;
+}
+.h3Div{
+ width: 80%;
+
+}
+.h3Changed{
+ font-size: 21px;
+}
+/*********** About ************/
+
+.about-pic{
+ width: 70%;
+
+ /* background-color: darkviolet; */
+
+ justify-content:  center;
+}
+
+.page2Details{
+ /* background-color: deepskyblue; */
+ width: 80%;
+ margin: auto;
+}
+
+.borderr{
+ margin: 20px 0px;
+ width: 90%;
+ border:0px  ;
+
+}
+.imgDiv{  
+ width: 100%;
+ margin-top: 0px;
+ margin-left: 0px;
+
+overflow: hidden;
+}
+.myInfo{
+ column-count: 1;
+}
+.myInfo ul{
+ list-style-type: none;
+ font-size: 19px;
+
+}
+.page2Details h2{
+ font-size: 34px;
+ }
+
+ /*********Services***********/
+
+.page3Item{
+     width: 50%;
+     
+}
+.Item3Image{
+    width: 25%;
+    
+}
+
+   /****************** Portofolia  *******************/
+   .portImg{
+    width: 45%;  
+}
+   
+}
+
